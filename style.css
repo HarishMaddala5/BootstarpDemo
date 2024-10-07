@@ -1,0 +1,26 @@
+.font{
+    font-family: Bahnschrift SemiBold;
+}
+.link{
+    font-size: 20px;
+    margin-top: 5%;
+    color: black !important;
+}
+.col{
+    margin-top: 2% !important;
+}
+.link:hover{
+    background: transparent !important;
+    color: rgb(239, 174, 51) !important;
+}
+@media screen and (max-width:769px) {
+    .cor1{
+        display: none;
+    }
+    .cor2{
+        display: block !important;
+    }
+}
+.point{
+    cursor: pointer;
+}
